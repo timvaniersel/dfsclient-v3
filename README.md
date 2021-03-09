@@ -1,3 +1,6 @@
-DFS CLIENT v3
-</br>
-<b>composer require jovix/dataforseo-clientv3</b>
+# DFS CLIENT v3
+updated packages
+
+```
+composer require timvaniersel/dataforseo-clientv3
+```
