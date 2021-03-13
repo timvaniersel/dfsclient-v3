@@ -17,7 +17,7 @@ use DFSClientV3\Models\SerpApi\SettingSerpTasks;
 
 $client = new DataForSEO(YOUR_DATAFORSEO_LOGIN, YOUR_DATAFORSEO_PASSWORD);
 $setting_serp_task = new SettingSerpTasks();
-$res = $setting_serp_task->setLanguageCode('nl')->setKeyword('keukenmes')->setPriority('normal')->setLocationCode('9050838')->setSe('google')->setSeType('organic')->get();
+$res = $setting_serp_task->setLanguageCode('nl')->setKeyword('keyword')->setPriority('normal')->setLocationCode('9050838')->setSe('google')->setSeType('organic')->get();
 
 ```
 
